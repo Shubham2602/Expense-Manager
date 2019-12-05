@@ -1,0 +1,35 @@
+h1, p {
+  font-family: Lato;
+}
+#Profile { 
+                float:left;  
+                background:white;
+                width:50%; 
+                height:280px; 
+            } 
+            #AccountInfo{ 
+                float:right;  
+                background:white; 
+                width:50%; 
+                height:280px; 
+            } 
+            
+            
+            h1{ 
+                color:white; 
+                text-align:center; 
+            }
+
+            #group1{
+              color:black;
+              background: green;
+              border-radius: 40px;
+              margin: 4px 2px;
+            }
+
+            #group2{
+              color:black;
+              background: red;
+              border-radius: 40px;
+              margin: 4px 2px;
+            }

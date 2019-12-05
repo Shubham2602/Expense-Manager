@@ -1,0 +1,27 @@
+{
+  "name": "react-pay-app",
+  "version": "1.0.0",
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "main": "src/index.js",
+    "node-fetch": "^2.6.0",
+    "openid-client": "^3.8.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "request": "^2.88.0",
+    "save": "^2.4.0"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js",
+    "test": "echo \"Error : no test specified\" && exit 1"
+  },
+  "description": "react app for pay",
+  "author": "Shubham Routh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0"
+  }
+}

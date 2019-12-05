@@ -1,0 +1,8 @@
+
+    axios.create({
+      timeout: 4000,
+      headers: { Authorization: "Bearer " + token.access_token }
+    });
+    const instance = axios.create({
+      timeout:4000
+    })

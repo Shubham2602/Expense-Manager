@@ -20,15 +20,17 @@ discover
     });
 
     console.log(token);
+    const consumerId = "4249302536";
     const url =
-      "https://api.fusionfabric.cloud/retail-banking/accounts/v1/accounts";
+      "https://api.fusionfabric.cloud/retail-us/customer-read/v1/consumers/" +
+      consumerId;
 
     console.log(url);
 
     const instance = axios.create({
       timeout: 8000,
       headers: { Authorization: "Bearer " + token.access_token },
-      accountId: "0543123467001"
+      accountId: ""
     });
 
     const response = await instance.get(url);
